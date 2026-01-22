@@ -13,3 +13,9 @@ def update2(nums):
     nums.append(5)
 update2(mylist)
 print(mylist)
+
+def updateBalance(money, change):
+    money = money - change 
+    return money
+
+balance = 1000
